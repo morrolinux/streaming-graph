@@ -31,4 +31,4 @@ curl -X POST -H "Content-Type: application/json" -d '{"sensors": {"sensor1": 10,
 
 ## Plotting the resutls
 
-Just visit [http://localhost:5000/plot](http://localhost:5000/plot)
+Just visit [http://localhost:5000](http://localhost:5000)

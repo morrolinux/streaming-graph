@@ -84,7 +84,7 @@ def receive_data():
         return jsonify({"status": "error", "message": str(e)}), 500
 
 # Endpoint per visualizzare il grafico
-@app.route('/plot', methods=['GET'])
+@app.route('/', methods=['GET'])
 def plot_data():
     if not sensor_data:
         return jsonify({"status": "error", "message": "Nessun dato da visualizzare!"}), 400
