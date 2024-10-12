@@ -137,5 +137,5 @@ load_data_from_db()
 
 # Avvio del server Flask
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
 
